@@ -1,0 +1,15 @@
+{
+
+    "manifest_version": 2,
+    "name": "modify-page",
+    "version": "1.0",
+  
+    "content_scripts": [
+      {
+        "matches": ["https://studip.uni-hannover.de/*"],
+        "js": ["playerfix.js"]
+      }
+    ]
+  
+  }
+  
