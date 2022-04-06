@@ -11,6 +11,6 @@ player.controls = true;
 
 var fullscreen = document.getElementsByClassName("no_fullscreen");
 if(debug) console.log(fullscreen);
-fullscreen1[0].remove();
+fullscreen[0].remove();
 
 if(debug) console.log("Done");
